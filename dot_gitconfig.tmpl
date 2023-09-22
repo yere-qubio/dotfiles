@@ -1,0 +1,14 @@
+[user]
+    name = {{ .name | quote }}
+    email = {{ .email | quote }}
+[core]
+    editor = vim
+[diff]
+    tool = vimdiff
+[merge]
+    tool = vimdiff
+[alias]
+    cm = commit
+    st = status
+    br = branch
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
