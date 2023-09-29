@@ -62,6 +62,7 @@ Plug 'dense-analysis/ale'
 " Needs pip install pynvim
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 let g:deoplete#enable_at_startup = 1
+let g:python3_host_prog = "/usr/bin/python3"
 
 " Needs pip install jedi
 Plug 'zchee/deoplete-jedi'
