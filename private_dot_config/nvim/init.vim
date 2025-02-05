@@ -16,6 +16,7 @@ set number relativenumber
 set hlsearch
 syntax on
 nnoremap <Leader><space> :noh<cr>
+set termguicolors
 
 " Python Settings
 autocmd FileType python set softtabstop=4
@@ -55,6 +56,8 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'tpope/vim-fugitive'
 
 Plug 'scrooloose/nerdtree'
+
+Plug 'github/copilot.vim'
 
 " Need sudo apt-get install flake8 shellcheck
 Plug 'dense-analysis/ale'

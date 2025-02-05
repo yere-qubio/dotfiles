@@ -10,3 +10,6 @@ alias v='vim'
 # Mistyping
 alias sl='ls'
 alias dc='cd'
+
+# MRICro
+alias mricro="wine ~/.wine/drive_c/Program\ Files\ \(x86\)/MRIcro/mricro.exe"
